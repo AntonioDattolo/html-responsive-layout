@@ -6,12 +6,13 @@
 
 
 
-
-
 /* HEADER */
-
-.nav-bar{
+header{
     background-color: #0084fd;
+
+}
+.nav-bar{
+    
     color: white;
     display: flex;
     justify-content: space-between;
@@ -23,6 +24,11 @@
 }
 
 /* MAIN */
+
+/* COMMON */
+.purple{
+    background-color: #9792e4;
+}
 
 .flex-container{
     display: flex;
@@ -53,35 +59,38 @@
     background-color: antiquewhite;
     color: black;
 }
-/* RESPONSIVE  */
-.bi{
-    display: flex;
-    flex-direction: column;
-}
 
-/* RESPONSIVE */
 .testimonials{
     text-align: center;
 
+}
+
+.people{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
 }
 
 .testimonials-card{
     background-color: #9792e4;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
-    margin: 0.05rem;
+    margin: 0.5rem;
+    width: 95%;
     
 }
 
 .with-us{
-    background-color: #9792e4;
+    
     color: white;
     padding: 0.3rem;
     margin: 0.3rem 0;
     text-align: center;
 }
+
+
 
 .withus-card{
     padding: 0.1rem;
@@ -99,7 +108,7 @@
 
 
 .get-started{
-    background-color: #9792e4;
+    
     color: white;
     text-align: center;
     margin-top: 0.3rem ;
@@ -144,5 +153,12 @@ footer{
     .abtus-col{
         width: calc(50% - 0.6rem);
     }
+}
+
+@media screen and (min-width:992px){
+    .boxed{
+       margin: 0 5%;
+    }
+    
 }
 
