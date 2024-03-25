@@ -3,3 +3,107 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+
+
+/* HEADER */
+
+.nav-bar{
+    background-color: #0084fd;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.res-menu{
+    display: none ;
+}
+
+/* MAIN */
+
+.jumbotron{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+ 
+.card, .col, .app{
+    width: 98%;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    background-color: #b5ddff;
+    color: #0084fd;
+}
+
+.planning{
+    background-color: #9792e4;
+    padding: 0.15rem;
+}
+.app{
+    background-color: antiquewhite;
+    color: black;
+}
+/* RESPONSIVE  */
+.bi{
+    display: flex;
+    flex-direction: column;
+}
+
+/* RESPONSIVE */
+.testimonials{
+    text-align: center;
+
+}
+
+.testimonials-card{
+    background-color: #9792e4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0.05rem;
+    
+}
+
+.with-us{
+    background-color: #9792e4;
+    color: white;
+    padding: 0.3rem;
+    margin: 0.3rem 0;
+    text-align: center;
+}
+
+.withus-card{
+    padding: 0.1rem;
+    margin: 0.1rem;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.about-us{
+    margin: 0.3rem;
+    text-align: center;
+}
+
+.get-started{
+    background-color: #9792e4;
+    color: white;
+    text-align: center;
+    margin-top: 0.3rem ;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.f-text{
+    margin: 0 5rem;
+    padding: 3rem;
+}
