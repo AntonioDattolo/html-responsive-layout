@@ -32,14 +32,14 @@ header{
 }
 
 .sec-marg{
-    margin-top: 2rem ;
+    margin-top: 4rem ;
 }
 
 button{
     border: none;
     background-color: red;
     border-radius: 2rem;
-    padding: 0.5rem 3.5rem;
+    padding: 0.5rem 2.8rem;
     cursor: pointer;
 }
 .flex-container{
@@ -47,6 +47,10 @@ button{
     flex-wrap: wrap;
     gap: 0.3rem;
     justify-content: space-around;
+}
+
+.text{
+    text-align: center;
 }
 /* FINE COMMON */
  
@@ -74,45 +78,39 @@ button{
 }
 
 .text > h2{
-    margin: 2rem 0;
-    font-size: 25px;
-    text-align: center;
+    margin: 1.2rem 0;
+    font-size: 25px;    
 }
+
 .text > p{
-    margin: 2rem 0;
-    font-size: 20px;
-    text-align: center;
+    margin-bottom:1rem;
+    font-size: 20px;    
 }
 
 .text > div > i{
     font-size: 70px;
-    
-
 }
 
 
 .row-left{
     width: calc((100% / 2) -0.6rem);
     padding: 1rem;
-    
+    text-align: left;   
+}
+
+.row-left > button {
+    background-color: #0084fd;
+    color: white;
 }
 
 .row-right{
-    width: calc((100% / 2) -0.6rem);
-    
-    
+    width: calc((100% / 2) -0.6rem);      
 }
-
-
-
 
 .jumbo-img{
     aspect-ratio: 1;
     width: 100%;
-    transform: translateY(0.7rem);
-    
-   
-    
+    transform: translateY(0.7rem);    
 }
 
 .planning{
@@ -138,6 +136,17 @@ button{
 
 .col > p{
     font-size: 20px;
+}
+
+.app > h3{
+    font-size: 20px;
+    margin: 0.5rem 0;
+}
+.app > button{
+    margin: 0.8rem 46%;
+    padding:0.3rem  0.42rem 0.3rem 0.42rem;
+    font-size: 18px;
+    background-color: #9792e4; 
 }
 
 .planning-img{
@@ -184,8 +193,7 @@ button{
 }
 
 .radius-img{
-    width: 35%;
-    aspect-ratio: 1;
+    width: 35%;    
     border-radius: 50%;
     margin: 0.8rem 0 ;
 }
@@ -196,24 +204,118 @@ button{
     text-align: center;
 }
 
+
+.with-us{
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.with-us > h2{
+    font-size: 35px;
+    margin: 1.5rem;
+}
 .withus-card{
-    padding: 0.1rem;
-    margin: 0.1rem;
     background-color: whitesmoke;
-    color: black;
+    padding: 1.8rem 3rem;
+    color: #9792e4;
+    border-radius: 13px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.withus-card > h2{
+    font-size: 70px;
+    margin: 0.5rem 0;
+}
+
+.withus-card > h5{
+    font-size: 23px;
+    margin: 0.5rem 0;
+}
+.withus-card > p{
+    font-size: 18px;
+    margin: 0.5rem 0;
 }
 
 
 .about-us{
     text-align: center;
+    justify-content: center;
+    
+    
 }
 
+.abtus-col-left{
+    
+    color: #9792e4;
+    padding: 1.5rem;
+    text-align: left;
+    
+}
+.abtus-col-right{
+    
+    color: #9792e4;
+    padding: 1.5rem;
+    text-align: left;
+}
 
+.abtus-col-left > h2{
+    font-size: 50px;
+    margin-bottom: 1.5rem;
+}
+.abtus-col-left > p{
+    color: black;
+    font-size: 20px;
+    margin: 1.5rem 0;
+    
+}
+
+.abtus-col-right > h4{   
+    font-size: 22px;
+    margin:1.5rem 0;
+}
+.cont{
+    position: relative;
+    width: 100%;
+}
+.vcov{   
+   position: absolute;
+   top: -17%;
+   right: 61%;
+   font-size: 100px;
+ 
+}
 
 .get-started{
     padding: 2rem;
     color: white;
     text-align: center;
+    font-size: 35px;
+}
+
+.get-started > h5{
+    opacity: 0.3;
+    font-size: 20px;
+    margin: 0.5rem;
+}
+
+.get-started > h3{
+    font-size: 28px;
+    margin-bottom: 1.5rem;
+}
+
+.get-started > p{
+    font-size: 15px;
+    opacity: 0.5;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.get-started > h6{
+    font-size: 13px;
+    margin: 1rem 0;
+    font-weight: lighter;
+    opacity: 0.6;
 }
 
 /* FOOTER */
@@ -227,6 +329,13 @@ footer{
 .f-text{
     margin: 0 5rem;
     padding: 3rem;
+}
+
+.f-text > h6{
+    margin: 2rem;
+    font-size: 10px;
+    opacity: 0.6;
+    font-weight: lighter;
 }
 
 /************ RESPONSIVE *********/
@@ -258,14 +367,29 @@ footer{
         flex-direction: row;
         justify-content: space-between;
     }
-
     .withus-card{
         width:calc(50% - 0.9rem) ;
+    
+    }
+    .abtus-col-left{
+        width: calc(50% - 0.6rem);
+       
+        
+    }
+    .abtus-col-right{
+        width: calc(30% - 0.6rem); 
+        
+        
     }
 
-    .abtus-col{
-        width: calc(50% - 0.6rem);
+    .vcov{   
+       
+        font-size: 65px;
+      
     }
+
+   
+    
 }
 
 @media screen and (min-width:992px){
@@ -312,6 +436,17 @@ footer{
         margin-left: 5rem;
     }
 
+    .withus-card{
+        width:calc(33% - 0.9rem) ;
+    }
+
+    .abtus-col-left{
+        width: calc(70% - 0.6rem);      
+    }
+
+    .vcov{   
+       font-size: 75px;
+    }
    
     
 }
