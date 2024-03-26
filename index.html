@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Layout</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <nav class="nav-bar boxed">
-            <div class="logo">Logo</div>
+            <div class="logo"><img src="./img/logo.png" alt=""></div>
             <div class="hamburger-menu">HAMBURGER</div>
             <div class="res-menu">
                 <div>Planning</div>
@@ -26,38 +27,38 @@
 
         <section class="boxed sec-marg" >
             <div class="flex-container">
-                <div class="card big">
-                    <div>
-                        <h4>CARD</h4>
+                <div class="big row">
+                    <div class="row-left text">
+                        <h2>Get a demo application</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias temporibus cupiditate numquam! Obcaecati soluta nihil quos placeat suscipit incidunt repudiandae ducimus odio, tempora eos aliquid est porro culpa dicta ex!</p>
-                        <span>APP STORE</span>
+                        <button>APP STORE</button>
                     </div>
-                    <div>
-                        <span>IMMAGINE</span>
+                    <div class="row-right text">
+                        <img class="jumbo-img" src="./img/phone.png" alt="">
                     </div>
                 
                 </div>
-                <div class="card ">
-                    <div>IMMAGINE</div>
-                    <H4>CARD</H4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur amet veniam officiis. Quasi deserunt fugit ex maxime iusto velit, voluptatum ea eveniet, maiores suscipit optio excepturi, tempore tenetur sequi ut.</p>
+                <div class="card  text">
+                    <div><i class="fa-regular fa-file-code"></i></div>
+                    <H2>Clean Code</H2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur amet veniam officiis. Quasi deserunt fugit ex maxime iusto velit.</p>
                 
                 </div>
-                <div class="card ">
-                    <div>IMMAGINE</div>
-                    <H4>CARD</H4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur amet veniam officiis. Quasi deserunt fugit ex maxime iusto velit, voluptatum ea eveniet, maiores suscipit optio excepturi, tempore tenetur sequi ut.</p>
+                <div class="card  text">
+                    <div><i class="fa-solid fa-compass-drafting"></i></div>
+                    <H2>Web Design</H2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur amet veniam officiis. Quasi deserunt fugit ex maxime iusto velit.</p>
                 
                 </div>
-                <div class="card">
-                    <div>IMMAGINE</div>
-                    <H4>CARD</H4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur amet veniam officiis. Quasi deserunt fugit ex maxime iusto velit, voluptatum ea eveniet, maiores suscipit optio excepturi, tempore tenetur sequi ut.</p>
+                <div class="card text">
+                    <div><i class="fa-solid fa-laptop-code"></i></div>
+                    <H2>Development</H2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur amet veniam officiis. Quasi deserunt fugit ex maxime iusto velit.</p>
                 </div>
-                <div class="card ">
-                    <div>IMMAGINE</div>
-                    <H4>CARD</H4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur amet veniam officiis. Quasi deserunt fugit ex maxime iusto velit, voluptatum ea eveniet, maiores suscipit optio excepturi, tempore tenetur sequi ut.</p>
+                <div class="card  text">
+                    <div><i class="fa-solid fa-bullhorn"></i></div>
+                    <H2>Branding</H2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur amet veniam officiis. Quasi deserunt fugit ex maxime iusto velit.</p>
                 </div>
         </section>
 
@@ -65,13 +66,16 @@
             <div class="planning boxed">
 
                 <div class="col">
-                    <div>immagine</div>
+                    <div><img class="planning-img" src="./img/planning1.png" alt=""></div>
                     <h3>Strategic Planning</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed odit dignissimos earum aperiam est incidunt exercitationem reiciendis, in minus ipsam delectus. Similique vel veritatis incidunt illo commodi nam quo optio!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed odit dignissimos earum aperiam est incidunt exercitationem reiciendis, in minus ipsam delectus. Similique vel veritatis incidunt illo commodi nam quo optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nulla magnam quia temporibus corporis, ad ea, porro omnis ratione saepe veniam sunt asperiores placeat amet numquam cupiditate, corrupti error exercitationem?</p>
                 </div>
                 
                 <div class="app">
-                    IMMAGINE
+                    <img class="planning-img" src="./img/planning2.png" alt="">
+                    <h3>App Developement</h3>
+                    <p>Develop on on-demand app for your delivery business to reach your targeted customers without any interruption.</p>
+                    <button><i class="fa-solid fa-arrow-down"></i></button>
                 </div>
             </div>
                 
@@ -79,26 +83,26 @@
 
 
         <section class="testimonials sec-marg boxed">
-            <h4>Testimonial</h4>
+            <h4>TESTIMONIALS</h4>
             <h2>We are committed expert partners</h2>
             <h6>We place huge value on strong relationship and have seen the benefit they bring to oue business. Customer feedback is vital in helping us to get it right.</h6>
             <div class="people">
                 <div class="testimonials-card">
-                    <div>immagine</div>
+                    <div><img class="radius-img" src="./img/testimonial1.jpg" alt=""></div>
                     <div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus in reprehenderit, dolorem qui illum, incidunt facere.</p>
                         <h5>NAT REYNOLDS</h5>
                     </div>
                 </div>
                 <div class="testimonials-card">
-                    <div>immagine</div>
+                    <div><img class="radius-img" src="./img/testimonial2.jpg" alt=""></div>
                     <div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus in reprehenderit, dolorem qui illum, incidunt facere.</p>
                         <h5>NAT REYNOLDS</h5>
                     </div>
                 </div>
                 <div class="testimonials-card">
-                    <div>immagine</div>
+                    <div><img class="radius-img" src="./img/testimonial3.jpg" alt=""></div>
                     <div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus in reprehenderit, dolorem qui illum, incidunt facere.</p>
                         <h5>NAT REYNOLDS</h5>
@@ -166,7 +170,7 @@
             </div>
 
             <div class="abtus-col">
-                <div>immagine</div>
+                <div><img class="radius-img" src="./img/about.jpg" alt=""></div>
                 <h4>I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</h4>
                 <button style="background-color: #9792e4; color: white;"> Find me on linkedin</button>
             </div>
