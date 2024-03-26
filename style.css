@@ -196,6 +196,7 @@ button{
     width: 35%;    
     border-radius: 50%;
     margin: 0.8rem 0 ;
+    aspect-ratio: 1;
 }
 
 .with-us{
