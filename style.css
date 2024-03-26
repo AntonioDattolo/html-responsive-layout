@@ -10,6 +10,12 @@
 /* HEADER */
 header{
     background-color: #0084fd;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+   
 
 }
 .nav-bar{    
@@ -17,12 +23,35 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem;
+    padding: 0.5rem;      
+}
+
+.down:hover{
+    color: #0084fd;
+    background-color: white;  
 }
 
 .res-menu{
     display: none ;
+    
 }
+
+/* ANIMATION MENU */
+.down:hover{
+    color: #0084fd;
+    background-color: white;  
+}
+i{
+    font-style: unset;
+}
+
+.hover:hover{
+    border-bottom: 2px solid white;
+    font-style: unset;
+    padding-bottom: 17px;
+    transition: 300ms;
+}
+
 
 /* MAIN */
 
@@ -157,7 +186,8 @@ button{
     margin-top: 3rem;
     text-align: center;
 }
- .testimonials > h2{
+
+.testimonials > h2{
     color: #9792e4; 
     font-size: 30px;
     margin: 1rem 0;
@@ -180,7 +210,8 @@ button{
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
+    align-items: center;
     margin: 0.5rem;
     padding: 1.5rem;
     width: 95%;
@@ -192,10 +223,11 @@ button{
     margin: 2.5rem 0;  
 }
 
+
 .radius-img{
-    width: 35%;    
+    width: 30%;    
     border-radius: 50%;
-    margin: 0.8rem 0 ;
+    margin: 0.8rem 2.5rem ;
     aspect-ratio: 1;
 }
 
@@ -273,18 +305,25 @@ button{
 
 .abtus-col-right > h4{   
     font-size: 22px;
-    margin:1.5rem 0;
+    margin-top:7.5rem ;
+    margin-bottom: 3rem;
 }
 .cont{
-    position: relative;
-    width: 100%;
+    position: absolute;  
 }
 .vcov{   
    position: absolute;
-   top: -17%;
-   right: 61%;
+   top: 0;
+   right: 0;
    font-size: 100px;
- 
+   line-height: 50%;
+}
+
+.abtus-img{
+    width: 100px;    
+    border-radius: 50%;
+    
+    aspect-ratio: 1;
 }
 
 .get-started{
@@ -335,7 +374,7 @@ footer{
 .f-text > h6{
     margin: 2rem;
     font-size: 10px;
-    opacity: 0.6;
+    opacity: 0.45;
     font-weight: lighter;
 }
 
@@ -382,7 +421,7 @@ footer{
         
         
     }
-
+    
     .vcov{   
        
         font-size: 65px;
